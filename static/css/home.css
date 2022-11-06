@@ -1,0 +1,120 @@
+.navbar{
+  background-color: #f15a29;
+}
+.logo{
+  vertical-align: middle;
+  height: 5em;
+  width: 17em;
+}
+.title{
+  padding: 5em;
+  font-size:xx-large;
+  color:white;
+  font-weight: bold;
+  font-style:italic;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.home-file{
+  padding:2em;
+  display:inline-block;
+  padding-left: 25%;
+}
+.home-control{
+  border: 4em solid #f15a29ba;
+  outline: 5em;
+  margin-bottom: 3em;
+}
+.form-label{
+  font-style:italic;
+  font-size:1.75em;
+  color:rgba(0, 0, 0, 0.747);
+}
+.rules{
+  height: 4em;
+  width: 4em;
+}
+.rules-list{
+  padding:5em;
+}
+.rules-heading{
+  padding-left:2em;
+  font-size:xx-large;
+  font-weight: bold;
+  font-style:italic;
+  font-family:revert;
+}
+.point{
+  padding : 1.3em;
+  font-size:1.4em;
+  font-weight: 600;
+  font-family: revert;
+}
+.submit-button{
+  height:4em;
+  width: 8em;
+}
+
+.center-button{
+  padding-left: 30%;
+}
+
+.card-cover{
+  padding:10%;
+  padding-bottom:8%;
+  
+}
+.card{
+  /* background-color:#ffc6b3ba; */
+  --bs-card-border-width: 2.5px;
+  --bs-card-border-radius: 0rem;
+  --bs-border-color-translucent: rgba(0, 0, 0, 255);
+}
+
+.subheading{
+  font-family: revert;
+  font-weight: bolder;
+  font-size:1.4em;
+}
+.content{
+  font-family: revert;
+  font-weight: 600;
+  font-size:1.4em;
+  font-style:italic;
+}
+li{
+  padding:2%;
+}
+.page{
+  font-size:1em;
+}
+.list-group {
+  --bs-list-group-border-width: 2.5px;
+  --bs-list-group-border-radius: 0rem;
+}
+
+
+
+.card-img, .card-img-top{
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+}
+
+.verified{
+  padding-left: 30%;
+}
+.view-form{
+  /* background:#f15a29; */
+  padding-left: 10%;
+  padding-right:15%;
+}
+
+.view-input{
+  border: 1.9px solid #000000;
+}
+.transaction{
+  margin:10%;  
+}
+.transaction-title{
+  color:white;
+}

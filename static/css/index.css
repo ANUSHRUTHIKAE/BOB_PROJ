@@ -1,0 +1,30 @@
+body{
+    background-color:white ;
+    padding-top: 0px;
+    padding-right: 0px;
+  /* padding-bottom: 50px; */
+    padding-left:0px; 
+    margin-left: 0px;
+
+}
+.bob-nav{
+  background-color: rgb(241,90,41);
+  height:8em;
+  border-radius: 0px;
+}
+
+.navbar-brand>img {
+  display: block;
+  height: 4em;
+  width: 7em;
+}
+i
+.flash_messages{
+  font-size:25px;
+  /* color:rgb(241,90,41); */
+  color:black;
+}
+
+.btn-success{
+  color:yellow;
+}
