@@ -31,20 +31,29 @@ download (poppler-0.68.0_x86) from https://blog.alivate.com.au/poppler-windows/
 
 and put in poppler_path = r"..........\poppler-0.68.0\bin"
 
+python app.py
+
+And test with
+
+--> bob_bhuvana_signNV_1.jpg
+--> bob_kaaviya_nameNV_1.jpg
+--> BOB_pdf (2).pdf
+
 
 **DESCRIPTION**
 
 M-o-N-e-Y h-E-i-S-t Bank handles large volumes of cheques in the clearing process. The process involves many technical verifications including signature verification. Some of these steps are manual and require human intervention to complete the process. The current process requires the high human capital deployment and longer processing time. Therefore this is high time to automate all the manual processes.
 
-A website is created and this website will first ask the user to upload the image. This is done using a flask.
+A website is created and this website will first ask the user to upload the image. This is done using flask.
 
 Extraction
 
 The form recognizer custom model is trained to extract the text from the cheques. Sample cheque images are added and trained to recognize the fields. The storage blob is connected to the form recognizer. It will be connected using SAAS which will be generated every 6 hours. First, the form recognizer will extract all the words. Then we have to create a tag and label the fields. This process is to be repeated and train the model. An endpoint is given to the form recognizer.
 
-After uploading, all the extracted details will be displayed. Extraction is done in JSON.
+After uploading, all the extracted details will be displayed. 
+Extraction is done in a JSON.
 
-IFSC Extraction IFSC code consists of four alphabets denoting the bank. The fifth will be zero. From the Sixth it will be alphanumeric denoting the branch. Razorpay API is connected. The extracted code is verified using the API. It will verify and validate the bank name and branch name with the extracted IFSC code.
+IFSC Extraction IFSC code consists of four alphabets denoting the bank. The fifth character will be zero. From the Sixth character it will be alphanumeric denoting the branch. Razorpay API is connected. The extracted code is verified using the API. It will verify and validate the bank name and branch name with the extracted IFSC code.
 
 MICR Extraction Magnetic Ink Character Recognition (MICR) is a 9-digit code that helps identify a particular bank branch that is part of the Electronic Clearing System (ECS) A self-trained model is used to predict the MICR code. When MICR is parsed it has delimiters at the end of every part, these delimiters are read as alphabets A or C. It will return the MICR line in raw format as a string, with delimiters to separate the account number, routing number, and check number.
 
