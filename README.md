@@ -14,10 +14,13 @@ https://docs.google.com/document/d/1le6mlbhUFTg_vORixnN9-Fufm0vtzTT4/edit?usp=dr
 **Setup**
 
 git clone https://github.com/ANUSHRUTHIKAE/BOB_PROJ.git
+
 cd BOB_PROJ
+
 pip install -r requirements.txt
 
 download any one (32 bit or 64 bit)
+
 from https://github.com/UB-Mannheim/tesseract/wiki
 
 download mcr.traineddata into program files.
@@ -25,6 +28,7 @@ download mcr.traineddata into program files.
 copy the path of tesseract.exe from Tesseract-OCR and paste in tess.pytesseract.tesseract_cmd = r" " in micr.py in BOB_PROJ
 
 download (poppler-0.68.0_x86) from https://blog.alivate.com.au/poppler-windows/ 
+
 and put in poppler_path = r"..........\poppler-0.68.0\bin"
 
 
