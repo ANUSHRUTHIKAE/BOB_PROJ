@@ -5,7 +5,7 @@ Azure Resources : https://drive.google.com/file/d/15b1_KsdFMtiEC0zsTH8IdadKiP-Z1
 
 BOB DEMO VIDEO : https://drive.google.com/file/d/1lIDzpjfKA09ebep1RGrtXa1jLa4yYYlJ/view?usp=drivesdk
 
-**PPT **
+**PPT**
 https://docs.google.com/presentation/d/1lIS1VGty0XNZbe3b6MzoacpQlnr5kwfg/edit?usp=drivesdk&ouid=117347297960272883839&rtpof=true&sd=true
 
 **DESCRIPTION**
