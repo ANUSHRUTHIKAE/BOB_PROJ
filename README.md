@@ -11,6 +11,23 @@ https://docs.google.com/presentation/d/1lIS1VGty0XNZbe3b6MzoacpQlnr5kwfg/edit?us
 **POC**
 https://docs.google.com/document/d/1le6mlbhUFTg_vORixnN9-Fufm0vtzTT4/edit?usp=drivesdk&ouid=117347297960272883839&rtpof=true&sd=true
 
+**Setup**
+
+git clone https://github.com/ANUSHRUTHIKAE/BOB_PROJ.git
+cd BOB_PROJ
+pip install -r requirements.txt
+
+download any one (32 bit or 64 bit)
+from https://github.com/UB-Mannheim/tesseract/wiki
+
+download mcr.traineddata into program files.
+
+copy the path of tesseract.exe from Tesseract-OCR and paste in tess.pytesseract.tesseract_cmd = r" " in micr.py in BOB_PROJ
+
+download (poppler-0.68.0_x86) from https://blog.alivate.com.au/poppler-windows/ 
+and put in poppler_path = r"..........\poppler-0.68.0\bin"
+
+
 **DESCRIPTION**
 
 M-o-N-e-Y h-E-i-S-t Bank handles large volumes of cheques in the clearing process. The process involves many technical verifications including signature verification. Some of these steps are manual and require human intervention to complete the process. The current process requires the high human capital deployment and longer processing time. Therefore this is high time to automate all the manual processes.
