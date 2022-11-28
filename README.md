@@ -5,6 +5,7 @@ Azure Resources : https://drive.google.com/file/d/15b1_KsdFMtiEC0zsTH8IdadKiP-Z1
 
 BOB DEMO VIDEO : https://drive.google.com/file/d/1lIDzpjfKA09ebep1RGrtXa1jLa4yYYlJ/view?usp=drivesdk
 
+
 **PPT**
 https://docs.google.com/presentation/d/1lIS1VGty0XNZbe3b6MzoacpQlnr5kwfg/edit?usp=drivesdk&ouid=117347297960272883839&rtpof=true&sd=true
 
@@ -12,6 +13,9 @@ https://docs.google.com/presentation/d/1lIS1VGty0XNZbe3b6MzoacpQlnr5kwfg/edit?us
 https://docs.google.com/document/d/1le6mlbhUFTg_vORixnN9-Fufm0vtzTT4/edit?usp=drivesdk&ouid=117347297960272883839&rtpof=true&sd=true
 
 **Setup**
+Create your Form recogniser keys and endpoints
+Create your Cosmodb for mongo db database
+train the Custom model Form recogniser and paste the Model ID
 
 git clone https://github.com/ANUSHRUTHIKAE/BOB_PROJ.git
 
