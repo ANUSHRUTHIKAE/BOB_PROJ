@@ -8,9 +8,13 @@ from micr import micr
 import pymongo
 
 def ExtractVerify(path):
-    endpoint= "https://chequeformrecogniser.cognitiveservices.azure.com/"
-    key="334ca57eb69f494e9700ee69324e5b4d"
+    #paste your form recogniser keys and endpoint
+    endpoint= ""
+    key=""
+    
+    #paste your Trainaed Custom document model form recognizer model ID
     model_id="01175162-b65b-4c0a-9b1b-2e8b4fbf73fa" 
+    
     post_at= endpoint +"/formrecognizer/v2.0/custom/models/%s/analyze" % model_id
     f=open(path,"rb")
     headers={
@@ -168,8 +172,9 @@ def ExtractVerify(path):
     Account_Number_informat=Acc_No_Format(json['AccountNumber'])
     if not(Account_Number_informat) :
         return "ACCOUNT NUMBER NOT VERIFIED","NOT VERIFIED"
-
-    myclient =pymongo.MongoClient("mongodb://verification:5l6oSsIxDhTx9d3TBT0MIOcDbGDG0jD5x0r5jxD0OirGI3jGGKnpkWgNQXpF1fTXK0xZECJHuTpNBCWl2I1cDw==@verification.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@verification@")
+    
+    #paste your CosmoDB MondoDB Client api keys 
+    myclient =pymongo.MongoClient("")
 
     mydb=myclient["hrdb"]
     mycol=mydb["Account_database"]
