@@ -46,7 +46,7 @@ And test with
 
 **DESCRIPTION**
 
-M-o-N-e-Y h-E-i-S-t Bank handles large volumes of cheques in the clearing process. The process involves many technical verifications including signature verification. Some of these steps are manual and require human intervention to complete the process. The current process requires the high human capital deployment and longer processing time. Therefore this is high time to automate all the manual processes.
+Bank handles large volumes of cheques in the clearing process. The process involves many technical verifications including signature verification. Some of these steps are manual and require human intervention to complete the process. The current process requires the high human capital deployment and longer processing time. Therefore this is high time to automate all the manual processes.
 
 A website is created and this website will first ask the user to upload the image. This is done using flask.
 
